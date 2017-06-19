@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './+home/home.component';
 import { SigninComponent } from './+signin/signin.component';
+import { MoenchComponent } from './+moench/moench.component';
 
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 // import { MaterialModule } from '@angular/material'; No kitchen sink
@@ -35,7 +36,6 @@ import {
   MdToolbarModule,
   MdTooltipModule
 } from '@angular/material';
-
 
 export const MaterialModules = [
   MdAutocompleteModule,
@@ -68,6 +68,7 @@ export const MaterialModules = [
     AppComponent,
     HomeComponent,
     SigninComponent,
+    MoenchComponent,
   ],
   imports: [
     BrowserModule,
